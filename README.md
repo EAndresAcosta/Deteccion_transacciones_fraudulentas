@@ -10,6 +10,11 @@ Este proyecto utiliza técnicas de ciencia de datos para identificar y prevenir 
   - [✨ Características](#-características)
   - [📊 Dataset](#-dataset)
   - [🔧 Tecnologías y Herramientas](#-tecnologías-y-herramientas)
+        - [Lenguaje:](#lenguaje)
+        - [Bibliotecas de Ciencia de Datos: *(Manipulación de datos)*](#bibliotecas-de-ciencia-de-datos-manipulación-de-datos)
+        - [Modelado y evaluación de algoritmos:](#modelado-y-evaluación-de-algoritmos)
+        - [Visualización de datos:](#visualización-de-datos)
+        - [Modelos de Machine Learning:](#modelos-de-machine-learning)
   - [🚀 Cómo Usar](#-cómo-usar)
   - [📈 Resultados y Métricas](#-resultados-y-métricas)
     - [🔹 Matriz de Confusión](#-matriz-de-confusión)
@@ -24,26 +29,44 @@ Este proyecto utiliza técnicas de ciencia de datos para identificar y prevenir 
 ## 📊 Dataset 
 Este proyecto utiliza un conjunto de datos de transacciones financieras que contiene información sobre montos, ubicación, tipo de transacción, entre otros atributos. Los datos han sido preprocesados para eliminar valores nulos y sesgados.
 
-Fuente: [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
-Tamaño: [324mb]
-Principales características:
-Columnas clave: class, amount, etc.
-Etiquetas: fraudulento (1) y no fraudulento (0).
+**Fuente**: [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
+
+**Tamaño**: [324mb]
+
+**Columnas clave**: class, amount, etc.
+
+**Etiquetas**: fraudulento **(1)** y no fraudulento **(0)**.
+
 ## 🔧 Tecnologías y Herramientas
+
 Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 
-Lenguaje: Python
-Bibliotecas de Ciencia de Datos:
-pandas, numpy (Manipulación de datos)
-scikit-learn (Modelado y evaluación de algoritmos)
-matplotlib, seaborn (Visualización de datos)
-Modelos de Machine Learning:
-Logistic Regression
+##### Lenguaje: 
+
+[![My Skills](https://skillicons.dev/icons?i=python&theme=dark&perline=15)](https://docs.python.org/)
+
+##### Bibliotecas de Ciencia de Datos: *(Manipulación de datos)*
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=pandas&theme=dark)](https://pandas.pydata.org/docs/)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=numpy&theme=dark)](https://numpy.org/doc/)
+
+##### Modelado y evaluación de algoritmos: 
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=scikitlearn&theme=dark)](https://scikit-learn.org/)
+
+##### Visualización de datos: 
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=matplotlib&theme=dark)](https://matplotlib.org/stable/index.html)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?i=seaborn&theme=dark)](https://seaborn.pydata.org/)
+
+##### Modelos de Machine Learning: 
+
+**Logistic Regression**
 
 ## 🚀 Cómo Usar
 Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-1. Clonar el repositorio
+1️⃣ Clonar el repositorio
 ```bash
    git clone https://github.com/tu-usuario/proyecto-transacciones-fraudulentas.git
 ```
@@ -51,7 +74,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 cd proyecto-transacciones-fraudulentas
 ```
 
-2. Crear entorno virtual e instalar dependencias
+2️⃣ Crear entorno virtual e instalar dependencias
 ```bash
 python -m venv env
 ```
